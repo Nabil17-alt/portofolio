@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Nabil</title>
+    <!--link to CSS-->
+    <link rel="stylesheet" href="index.css">
+    <!--box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--scroll top-->
+    <a href="#home" class="scroll-top">
+        <i class="bx bx-up-arrow-alt"></i>
+    </a>
+    <!--header-->
+    <header>
+        <!--nav-->
+        <div class="nav container">
+            <!--logo-->
+            <a href="#" class="logo">Muhammad Nabil</a>
+            <!--navbar-->
+            <ul class="navbar">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#portofolio" class="nav-link">Portofolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <!--menu icon-->
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+    <!--home-->
+    <section class="home container" id="home">
+        <div class="home-content">
+            <div class="home-img">
+                <img src="12345.png" alt="">
+            </div>
+            <div class="home-text">
+                <h3>Haiii</h3>
+                <h2>Saya <span class="efek-ngetik"></span></h2>
+                <p>
+                    Saya seorang Mahasiswa <span class="color">STMIK</span> Amik Riau
+                </p>
+                <!--social-->
+                <div class="social">
+                    <a href="https://www.instagram.com/muhammadnabil_17/"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://twitter.com/Muhamma66179988"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--about-->
+    <section class="about container" id="about">
+        <!--heading-->
+        <h2 class="heading">About</h2>
+        <!--about content-->
+        <div class="about-content">
+            <div class="about-data">
+                <span>About Me</span>
+                <h2>Mahasiswa Teknik Informatika</h2>
+                <a href="CV.png" class="btn" download="">
+                    Download CV
+                    <i class='bx bxs-download'></i>
+                </a>
+            </div>
+            <div class="about-text">
+                <p>Haiii Saya Muhammad Nabil. Mahasiswa Teknik Informatika</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat dolor, excepturi ut sit, provident tempora alias accusantium, deserunt laboriosam qui itaque. Iusto repellendus ipsa nemo a, suscipit in vero. Eveniet?</p>
+            </div>
+        </div>
+    </section>
+    <!--portofolio-->
+    <section class="portofolio container" id="portofolio">
+        <!--heading-->
+        <h2 class="heading">Portofolio</h2>
+        <!--portofolio content-->
+        <div class="portofolio-content">
+            <div class="portofolio-box">
+                <img src="portofolio.jpeg" alt="" class="portofolio.img">
+                <!--overlay-->
+                <div class="portofolio-overlay">
+                    <h2>Mahasiswa</h2>
+                    <a href="#">
+                        <i class='bx bx-link-alt'></i>
+                    </a>
+                </div>
+            </div>
+            <div class="portofolio-box">
+                <img src="portofolio.jpeg" alt="" class="portofolio.img">
+                <!--overlay-->
+                <div class="portofolio-overlay">
+                    <h2>Mahasiswa</h2>
+                    <a href="#">
+                        <i class='bx bx-link-alt'></i>
+                    </a>
+                </div>
+            </div>
+            <div class="portofolio-box">
+                <img src="portofolio.jpeg" alt="" class="portofolio.img">
+                <!--overlay-->
+                <div class="portofolio-overlay">
+                    <h2>Mahasiswa</h2>
+                    <a href="#">
+                        <i class='bx bx-link-alt'></i>
+                    </a>
+                </div>
+            </div>
+            <div class="portofolio-box">
+                <img src="portofolio.jpeg" alt="" class="portofolio.img">
+                <!--overlay-->
+                <div class="portofolio-overlay">
+                    <h2>Mahasiswa</h2>
+                    <a href="#">
+                        <i class='bx bx-link-alt'></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--contact form-->
+    <section class="contact container" id="contact">
+        <!--heading-->
+        <h2 class="heading">Contact</h2>
+        <!--contact form-->
+        <form action="" class="contact-from" id="contact-from">
+            <input type="text" placeholder="Your Name" class="name" required>
+            <input type="email" name="" id="" placeholder="Email address..." class="email" required>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Write message here..." class="message" required></textarea>
+            <input type="submit" value="Send" class="send-btn">
+        </form>
+    </section>
+    <!--footer-->
+    <section class="footer-container">
+		<div class="footer-left">
+			<p class="footer-links">
+				<a href="#home">Home</a>	
+		    	<a href="#about">About</a>
+                <a href="#portofolio">Portofolio</a>
+                <a href="#contact">Contact</a>
+			</p>
+			<p> &copy; Muhammad Nabil</p>
+		</div>
+    </section>
+
+    <!--email js link-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!--sweet alert js link-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+        emailjs.init("EA2mcFjIWkyf1PXNc"); //you will use your email js opi key here
+        })();
+    </script>
+
+    <!--link to js-->
+    <script src="index.js"></script>
+</body>
+</html>
